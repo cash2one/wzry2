@@ -43,7 +43,7 @@
       ...mapState(["armsData"])
     },
     created: function () {
-      this.titleInfo(this.title);
+      this.titleInfo(this.title || 0);
       this.setData(1)
     },
     components: {
